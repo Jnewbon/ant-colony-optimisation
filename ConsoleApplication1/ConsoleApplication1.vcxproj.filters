@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Maze">
+      <UniqueIdentifier>{30f8e406-b214-4000-ad7f-4905c3e04060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maze">
+      <UniqueIdentifier>{a44c74b2-5792-4faa-b782-36a18efea17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maze\Generator">
+      <UniqueIdentifier>{0cdf2ccf-88ab-4c40-9ed7-5d6189be6700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maze\Generator">
+      <UniqueIdentifier>{3503c439-f020-4ad6-8164-0b4f3ebb3729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{8fc2f67b-b478-4a8f-9c68-fa4184d6c046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{88e5f10f-fdcf-4062-b778-788850ec5f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{49e89954-6951-4187-ab80-56f94c7009f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{502c0399-37ba-4ad6-ae0d-f2011d74d19a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Maze_Cell.cpp">
+      <Filter>Source Files\Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Flock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Ant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Maze_Primms.cpp">
+      <Filter>Source Files\Maze\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Maze_RecuBack.cpp">
+      <Filter>Source Files\Maze\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Simulator.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Screen.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_ConsoleInterface.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_AI_ACO.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_AI_AntSuperCL.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_MovableObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Maze.cpp">
+      <Filter>Source Files\Maze\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_AI_Rank.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_Maze_Allopen.cpp">
+      <Filter>Source Files\Maze\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="CLS_AI_Rank_Food.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoOrd3D.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Maze_Cell.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Maze.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Flock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Ant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_MazeGenAlgorithm.h">
+      <Filter>Header Files\Maze\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Maze_Primms.h">
+      <Filter>Header Files\Maze\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Maze_RecuBack.h">
+      <Filter>Header Files\Maze\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Simulator.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Screen.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_ConsoleInterface.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="debugOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_AI_AntSuperCL.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_AI_ACO.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_MovableObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_AI_Rank.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_Maze_Allopen.h">
+      <Filter>Header Files\Maze\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="CLS_AI_Rank_Food.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
