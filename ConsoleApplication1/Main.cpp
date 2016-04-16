@@ -46,6 +46,8 @@ int main(int argc, char **argv)
 	cout << "Grid Size: { " << Grid_X << " , " << Grid_Y << " , " << Grid_Z << " }" << endl
 		 << "Number of Ants: " << Num_ants << endl;
 
+	system("PAUSE");
+
 	try
 	{
 

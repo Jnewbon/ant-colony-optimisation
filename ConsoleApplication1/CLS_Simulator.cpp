@@ -12,7 +12,7 @@
 #include <fstream>
 
 using namespace std;
-using namespace CoreStructures;
+//using namespace CoreStructures;
 
 const int SCREEN_X = 800;
 const int SCREEN_Y = 800;

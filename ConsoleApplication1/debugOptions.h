@@ -15,8 +15,8 @@ public:
 	{
 		std::string errors[] = { 
 							"An invalid number of ants was given to the AI initilization",		// Error 0
-							"Current Location of an ant is set to NULL",							// Error 1
-							"There was no ant AI initilized"
+							"Current Location of an ant is set to NULL",						// Error 1
+							"There was no ant AI initilized"									// Error 2
 		};
 
 		return errors[code];

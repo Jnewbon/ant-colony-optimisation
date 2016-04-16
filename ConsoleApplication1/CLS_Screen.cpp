@@ -3,7 +3,7 @@
 
 CLS_Screen::CLS_Screen(void)
 {
-	//Becose White text on a blck screen is too comman
+	//Because White text on a blck screen is too comman
 	console.setColour(console.BLACK,console.WHITE);
 	//Clear the screnn to make the changes visible
 	console.clear();
