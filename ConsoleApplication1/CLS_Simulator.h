@@ -8,7 +8,7 @@
 #include "GL\glut.h"
 #include "GL\freeglut.h"
 #include "GL\glew\wglew.h"
-#include "CoreStructures\CoreStructures.h"
+//#include "CoreStructures\CoreStructures.h"
 
 #include "CLS_Screen.h"
 #include "CLS_Maze.h"
@@ -63,6 +63,8 @@ private:
 
 	//will contain a list of all the movable objects (either all the ants or a flock containing all the ants)
 	static std::vector<CLS_MovableObject*> movableObjects; 
+
+	static void restockAnts();
 
 	//static CoreStructures::GUPivotCamera* camera;
 };

@@ -37,10 +37,10 @@ int main(int argc, char **argv)
 	Grid_X = 20;
 	Grid_Y = 20;
 	Grid_Z = 2;
-	Num_ants = 200;
+	Num_ants = 100;
 	cout << "Test 1" << endl;
 	cout << "ACO Algorithm: Rank ACO" << endl;
-	cout << "Pheromone deposition amount 200" << endl;
+	cout << "Pheromone deposition amount 100" << endl;
 	cout << "Pheromone Evap Rate 0.5% per iteration" << endl;
 	cout << "Grid Type: Recursive Back" << endl;
 	cout << "Grid Size: { " << Grid_X << " , " << Grid_Y << " , " << Grid_Z << " }" << endl
@@ -66,7 +66,7 @@ int main(int argc, char **argv)
 	system("CLS");
 	CLS_Simulator::simulatorDestruct();
 	CLS_Factory::DestoryAllObjects(); //MWAHAHAHAHA
-	gu_memory_report();
+	//gu_memory_report();
 	_CrtDumpMemoryLeaks();
 	system("PAUSE");
 	//_CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );

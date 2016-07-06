@@ -72,7 +72,7 @@ void CLS_Simulator::simulationInit(int argc, char **argv) {
 	{	screen.outputNL("FAILED");	}
 #endif
 
-	glClearColor(1.0,1.0,1.0,1.0);
+	glClearColor(0.0,0.0,0.0,1.0);
 	glOrtho(-(SCREEN_X/2),(SCREEN_X/2),-(SCREEN_Y/2),(SCREEN_Y/2),-400,400);
 
 #ifdef DEBUG_GRAPHICS
@@ -274,9 +274,9 @@ void CLS_Simulator::display() {
 
 				glEnd();
 
-				R = 0.0f;
-				G = 0.0f;
-				B = 0.0f;
+				R = 1.0f;
+				G = 1.0f;
+				B = 1.0f;
 				A = 0.75f;
 				glBegin(GL_LINES);
 				glColor4f(R, G, B, A);
@@ -321,7 +321,7 @@ void CLS_Simulator::display() {
 		}
 	}
 
-	for (int i = 0 ; i < movableObjects.size(); i++)
+	for (unsigned int i = 0 ; i < movableObjects.size(); i++)
 	{
 		movableObjects[i]->draw(width,baseGrid->getGridSize()[0]-1);
 	}
@@ -334,7 +334,6 @@ void CLS_Simulator::keyHandler(unsigned char key, int x, int y)
 	if (key == 27)
 		quit = true;
 }
-
 
 void CLS_Simulator::specialKeyHandler(int key , int x, int y)
 {
@@ -468,3 +467,4 @@ void CLS_Simulator::simulationAddFood(int number)
 	}
 
 }
+

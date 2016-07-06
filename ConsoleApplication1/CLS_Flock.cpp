@@ -1,6 +1,6 @@
 #include "CLS_Flock.h"
 #include "CLS_Ant.h"
-#include "CoreStructures\CoreStructures.h"
+//#include "CoreStructures\CoreStructures.h"
 #include <iostream>
 using namespace std;
 
@@ -58,7 +58,6 @@ void CLS_Flock::move()
 	{
 		(*i)->move();
 	}
-
 }
 
 void CLS_Flock::addObject(CLS_MovableObject* value)

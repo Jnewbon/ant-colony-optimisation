@@ -10,4 +10,3 @@ CLS_AI_AntSuperCL::CLS_AI_AntSuperCL(void)
 CLS_AI_AntSuperCL::~CLS_AI_AntSuperCL(void)
 {
 }
-

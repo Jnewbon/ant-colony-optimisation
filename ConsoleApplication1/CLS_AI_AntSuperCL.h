@@ -10,6 +10,7 @@ class CLS_AI_AntSuperCL
 {
 
 public:
+
 	
 	enum antAItypes { BASIC , RANK , RANK_FOOD };
 
@@ -20,6 +21,7 @@ public:
 	virtual void returnMove(std::vector<CLS_Maze_Cell*>) = 0;
 	
 	static int shortestPath;
+
 
 };
 

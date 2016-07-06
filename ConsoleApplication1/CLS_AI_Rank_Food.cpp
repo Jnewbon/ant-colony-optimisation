@@ -112,7 +112,7 @@ void CLS_AI_Rank_Food::pheroEvapRule(CLS_Maze_Cell* theGrid, int sizeOfGrid)
 
 	for (int i = 0; i < sizeOfGrid; i ++)
 	{
-		theGrid[i].setPhero(-(theGrid[i].getPhero()*0.02f));
+		theGrid[i].setPhero(-(theGrid[i].getPhero()*0.01f));
 	}
 
 }
