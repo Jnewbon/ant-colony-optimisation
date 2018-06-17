@@ -9,6 +9,7 @@
 //#define DEBUG_ANT_AI
 #include <string>
 
+
 class debug {
 public:
 	static std::string getErrorCode(int code)
