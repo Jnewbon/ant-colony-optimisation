@@ -67,6 +67,10 @@ void CLS_Maze_RecuBack::generate(CLS_Maze_Cell* grid, int maxSize, bool perfect)
 					//Push the newcell into the stack
 					backTrace.push(backTrace.top()->getAdjacent(direction));
 
+#ifdef DEBUG_MAZE_GEN_3D
+					CLS_Simulator::rotateDisplay(1.0f, 1.f);
+					CLS_Simulator::display();
+#endif
 #ifdef DEBUG_MAZE_GEN //So the the grid is output to the console as it gernerates if the dubug define is set
 
 					CLS_Screen* output = CLS_Simulator::getScreen();

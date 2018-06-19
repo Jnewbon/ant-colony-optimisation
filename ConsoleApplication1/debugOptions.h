@@ -1,12 +1,16 @@
 #pragma once
 //Will output Infomation to the console during the Maze Generation Algorithm
 //#define DEBUG_MAZE_GEN
+//#define DEBUG_MAZE_GEN_3D
+
 
 //OutPut stats from the Grpahical code to the console
 //#define DEBUG_GRAPHICS
 
 //Debug for the ants
 //#define DEBUG_ANT_AI
+
+
 #include <string>
 
 

@@ -38,7 +38,7 @@ int main(int argc, char **argv)
 	int Grid_X, Grid_Y, Grid_Z, Num_ants;
 	Grid_X = 20;
 	Grid_Y = 20;
-	Grid_Z = 2;
+	Grid_Z = 5;
 	Num_ants = 100;
 	cout << "Test 1" << endl;
 	cout << "ACO Algorithm: Rank ACO" << endl;

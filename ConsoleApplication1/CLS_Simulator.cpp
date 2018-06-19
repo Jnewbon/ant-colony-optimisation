@@ -86,17 +86,17 @@ void CLS_Simulator::simulationInit(int argc, char **argv) {
 	
 	shortest = -1;
 
+	glRotatef(30.0f, 1.0f, 1.0f, -1.0f);
+
 }
 
 void CLS_Simulator::mainLoop() {
 
 	
-#ifdef DEBUG_GRAPHICS
 	lastTimePoint = CLS_Simulator::elapsedTime();
-#endif
+
 	ofstream outFile;
 	outFile.open("test.txt");
-	glRotatef(30.0f,1.0f,1.0f,-1.0f);
 	while(glutGetWindow() != 0 && quit == false)
 	{
 		glutMainLoopEvent();
@@ -329,6 +329,12 @@ void CLS_Simulator::display() {
 	glutSwapBuffers();
 }
 
+void CLS_Simulator::rotateDisplay(float left, float up)
+{ 
+
+	glRotatef(0.1f, left, up, 0.0f);
+}
+
 void CLS_Simulator::keyHandler(unsigned char key, int x, int y)
 {
 	if (key == 27)
@@ -349,7 +355,7 @@ void CLS_Simulator::activeMouseHandler(int x, int y)
 		int dy = y - CLS_Simulator::mousePos.y;
 
 		
-		glRotatef(1.0f,float(dx),float(dy),0.0f);
+		glRotatef(30.0f,float(dx),float(dy),0.0f);
 
 	}
 }

@@ -29,6 +29,9 @@ public:
 	static void simulatorDestruct(void);
 	static void mainLoop();
 	static CLS_Screen* getScreen();
+	static void display();
+
+	static void rotateDisplay(float left, float up);
 	
 private:
 
@@ -44,7 +47,6 @@ private:
 	static long shortest;
 	static long shortestItor;
 
-	static void display();
 
 	static void keyHandler(unsigned char, int, int);
 	static void specialKeyHandler(int, int, int);
